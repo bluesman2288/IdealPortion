@@ -43,8 +43,7 @@
         });
 
         function processSuccess(data, status, req) {
-            if (status == "success")
-                $("#response").text($(req.responseXML).find("HelloResult").text());
+           document.getElementById("response").innerHTML=data;
         }
 
         function processError(data, status, req) {
