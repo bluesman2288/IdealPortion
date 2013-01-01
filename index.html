@@ -1,27 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <meta name="author" content="Ben Howdle and Dan Matthew">
-   <meta name="description" content="A responsive movie poster grabber">
-   <title>Front Row by Ben Howdle</title>
+   <meta name="author" content="Ekw">
+   <meta name="description" content="Food Searcher">
+   <title>My Ideal Portion</title>
    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
    <script src="lib/jquery-1.8.3.js"></script>
         <!--jQuery, linked from a CDN-->
    <script src="lib/script2.js"></script>
+   <script src="lib/util.js"></script>
    <script type="text/javascript" src="http://use.typekit.com/oya4cmx.js"></script>
    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
- 
+ <link rel="stylesheet" type="text/css" href="styles/custom.css" />
+<link rel="stylesheet" type="text/css" href="styles/style.css" />
 </head>
 <body>
 <div class="container">
    <header>
-      <h1>Front Row</h1>
+      <h1>Food</h1>
    </header>
    <section id="fetch">
-      <input type="text" placeholder="Enter a movie title" id="term" />
-      <button id="search">Find me a poster</button>
+      <input type="text" placeholder="Enter a food or restaurant" id="term" />
+      <button id="search">Find Food or Restaurants</button>
    </section>
+   <br><br>
    <div id="food">
+   </div>
+    <div id="item">
    </div>
    
   
