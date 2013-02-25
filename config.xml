@@ -2,7 +2,7 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id = "com.myidealportion.iportion"
-        version = "2.2.0">
+        version = "1.8.1">
     <name>Ideal Portion</name>
 
     <description>
